@@ -1,138 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Budgety</title>
-    <link rel="stylesheet" href="asset/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-<body>
-	
-   <div class="top">
-   		<div class="budget">
-   			<div class="budget_title">
-   				Available Budget in <span class="budget_title_month">%Month%</span>
-   			</div>
-   			
-   			<div class="budget_value">+ 2,345.64</div>
-   			
-			<div class="budget_income clearfix">
-   				<div class="budget_income_text">Income</div>
-   				<div class="right">
-   					<div class="budget_income_value">+ 4,300.00</div>
-   					<div class="budget_income_percentage">&nbsp;</div>
-   				</div>
-			</div>
-  			
-  			<div class="budget_expenses clearfix">
-  				<div class="budget_expenses_text">Expenses</div>
-  				<div class="right clearfix">
-  					<div class="budget_expenses_value">- 1,954.00</div>
-  					<div class="budget_expenses_percentage">45%</div>
-  				</div>
-  			</div>
-   		</div>
-   </div>
-   
-   
-   <div class="bottom">
-   		<div class="add">
-   			<div class="add_container">
-   				<select class="add_type">
-   					<option value="inc" selected>+</option>
-   					<option value="exp">-</option>
-   				</select>
-   				<input type="text" class="add_description" placeholder="Add description">
-   				<input type="number" class="add_value" placeholder="Value">
-				<button class="add_btn"><i class="far fa-check-circle"></i></button>
-   			</div>
-   		</div>
-   		
-   		<div class="container clearfix">
-   			<div class="income">
-   				<h2 class="income_title">Income</h2>
-   				
-   				<div class="income_list">
-   					
-   					
-   					
-   					
-   					
-   					
-   					
-   				</div>
-   			</div>
-   			
-   			<div class="expenses">
-   				<h2 class="expenses_title">Expenses</h2>
-   				
-   				<div class="expenses_list">
-   					
-   					
-   			</div>
-   		</div>
-   		
-   </div>
-   
-   
-   
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    <script src="asset/js/all.min.js"></script>
+<body>
+
+    <div class="top">
+        <div class="budget">
+            <div class="budget_title">
+                Available Budget in <span class="budget_title_month">%Month%</span>
+            </div>
+            <div class="budget_value">+ 2,345.64</div>
+            <div class="budget_income clearfix">
+                <div class="budget_income_text">Income</div>
+                <div class="right">
+                    <div class="budget_income_value">+ 4,300.00</div>
+                    <div class="budget_income_percentage">&nbsp;</div>
+                </div>
+            </div>
+            <div class="budget_expenses clearfix">
+                <div class="budget_expenses_text">Expenses</div>
+                <div class="right clearfix">
+                    <div class="budget_expenses_value">- 1,954.00</div>
+                    <div class="budget_expenses_percentage">45%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="add">
+            <div class="add_container">
+                <select class="add_type">
+                    <option value="inc" selected>+</option>
+                    <option value="exp">-</option>
+                </select>
+                <input type="text" class="add_description" placeholder="Add description">
+                <input type="number" class="add_value" placeholder="Value">
+                <button class="add_btn"><i class="far fa-check-circle"></i></button>
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="income">
+                <h2 class="income_title">Income</h2>
+                <div class="income_list">
+                </div>
+            </div>
+            <div class="expenses">
+                <h2 class="expenses_title">Expenses</h2>
+                <div class="expenses_list">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"
+        integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/main.js"></script>
-   </body>
+</body>
+
 </html>
